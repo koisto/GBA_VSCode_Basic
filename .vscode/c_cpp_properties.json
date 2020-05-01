@@ -34,7 +34,9 @@
             "includePath": [
                 "/usr/include",
                 "/usr/local/include",
-                "${workspaceFolder}/include"
+                "${workspaceFolder}/include",
+                "/opt/devkitpro/devkitARM/arm-none-eabi/include",
+                "/opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/9.1.0/include"                
             ],
             "defines": [],
             "intelliSenseMode": "clang-x64",
@@ -42,7 +44,9 @@
                 "path": [
                     "/usr/include",
                     "/usr/local/include",
-                    "${workspaceFolder}/include"
+                    "${workspaceFolder}/include",
+                    "/opt/devkitpro/devkitARM/arm-none-eabi/include",
+                    "/opt/devkitpro/devkitARM/lib/gcc/arm-none-eabi/9.1.0/include"                    
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
